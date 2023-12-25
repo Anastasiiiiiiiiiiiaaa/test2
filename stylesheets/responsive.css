@@ -1,0 +1,145 @@
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1440px) {
+  .five{
+    width: 100vw;
+}
+.fi{
+    width: 100vw;
+}
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+  .five{
+    width: 100vw;
+}
+.fi{
+    width: 100vw;
+}
+}
+@media only screen and (max-device-width: 1024px) and (min-device-width: 768px) {
+  .five{
+    width: 100vw;
+}
+.fi{
+    width: 100vw;
+}
+}
+@media screen and (max-width: 414px){
+  html, body {
+    overflow-x: hidden;
+    max-width: 414px;
+    }
+
+  .tel{
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    align-items:center;
+    margin-top: 16%;
+}
+.star{
+  width: 30%;
+}
+  .ff{
+    color: black;
+    font-size: 6vw;
+    animation: ctrl-change 1s steps(1) infinite;
+    animation-play-state: running;
+}
+.bricks2 {
+  z-index: 2;
+  display: flex;
+  align-content: center;
+  position: relative;
+  margin-left: 1%;
+  width:200%;
+  animation: circles-move2 2s linear infinite;
+  margin-right: -60%;
+  margin-top: 62%;
+}
+.five{
+  width: 100vw;
+  position: relative;
+z-index: 2;
+margin-top: 0%;
+display: flex;
+}
+.fim{
+    width: 150%;
+    position: absolute;
+    
+}
+.fi{
+  width: 140%;
+  position: relative;
+  z-index: 1;
+  transform: scale(-1,1);
+  margin-left: -40%;
+}
+
+.four{
+  position: absolute;
+  margin-top: 43.5%;
+  z-index: 3;
+  width: 100vw;
+  margin-left: -50%;
+}
+.bole{
+  width: 50vw;
+  position: relative;
+  z-index: 1;
+}
+.boom{
+  width: 50vw;
+  height: 14vw;
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+
+  animation: bo .85s steps(1) alternate infinite;
+  animation-play-state: running; 
+  background-size: 400% 100%;
+  background-image: url("../img/boom.png");
+}
+@keyframes bo{
+  0%{ background-position: 0% 0px}
+  25%{ background-position: 100% 0px}
+  50%{ background-position: 200% 0px}
+  75%{ background-position: 300% 0px}
+  100%{ background-position: 400% 0px}
+}
+.none{
+  display: flex;
+  position: relative;
+  z-index: 1;
+  margin-top: -16%;
+  transform: scale(-1,1);
+}
+.podval{
+  width: 100%;
+  background-color: black;
+  height: 8vw;
+  position: relative;
+  z-index: 1;
+  margin-top: -1%;
+}
+.kolfa{
+  width: 100%;
+  position: absolute;
+  z-index: 5;
+  margin-top: 60%;
+  margin-left: 8%;
+  display: flex;
+  
+}
+.lt{
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  justify-content: space-evenly;
+}
+  }
+  
+  
